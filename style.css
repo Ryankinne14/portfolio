@@ -1,0 +1,156 @@
+body {
+    background-color: black;
+}
+.container{
+height: 300px;
+margin-top: 20px;
+height: 250px;
+width: 250px;
+position: relative;
+border-radius: 50%;
+margin-left: auto;
+margin-right: auto;
+background-color: black;
+}
+.explode{
+display: flex;
+}
+button {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid black;
+}
+.image {
+height: 260px;
+width: 260px;
+border-radius: 50%;
+margin-left: -11px;
+margin-top: -4px;
+transition: width 0.5s, height 0.5s;
+object-fit: cover;
+opacity: 1.0;
+}
+.image:hover{
+opacity: 0.8;
+}
+.title {
+    justify-content: center;
+    font-size: 40px;
+}
+.text-box{
+    display: flex;
+    height: 135px;
+    font-size: 2rem;
+}
+h1{
+margin-top: 50px;
+font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+color: gray;
+font-weight: bold;
+margin-left: auto;
+margin-right: auto;
+word-spacing: -1.3rem;
+}
+.text-box2{
+    display: flex;
+    height: 100px;
+}
+.title2 {
+justify-content: center;
+font-size: 0.7rem;
+margin-top: -35px;
+}
+h2{
+    margin-top: 50px;
+font-family: Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+color: #232b2b;
+font-weight: bold;
+margin-left: auto;
+margin-right: auto;
+}
+.links {
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+    justify-content: center;
+    list-style-type: none;
+    gap: 10px;
+}
+.link-one {
+height: 40px;
+width: 40px;
+padding: 5px;
+}
+.link-two{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    filter: brightness(900%);
+}
+.link-three{
+    height: 40px;
+width: 40px;
+padding: 5px;
+}
+.link-four{
+    height: 40px;
+width: 40px;
+padding: 5px;
+}
+.light{
+    max-height: 250px;
+    width: 400px;
+    position: relative;
+    margin-top: 78px;
+    margin-left: 18px;
+    border-radius: 50%;
+    margin-bottom: -140px;
+    opacity: 0;
+}
+.lamp{
+    display: flex;
+    height: 150px;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 132px;
+    
+}
+.lamp-container{
+    display: flex;
+    justify-content: center;
+}
+.bottom-text-box{
+display: flex;
+}
+   .bottom-text{
+       color: white;
+       display: flex;
+       gap: 100px;
+       margin-left: 838px;
+       opacity: 0;
+       text-decoration: none;
+   } 
+.About{
+    color: aliceblue;
+    font-style: italic;
+    color: lightgreen;
+}
+.Projects{
+    color: lightgreen;
+    font-style: italic;
+}
+.on{
+opacity: 1;
+}
+.onTwo{
+    opacity: 0.7;
+}
+footer{
+    color: white;
+    justify-content: center;
+    display: flex;
+    margin-top: 130px;
+    opacity: 0.4;
+}
